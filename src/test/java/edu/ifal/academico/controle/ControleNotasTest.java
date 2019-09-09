@@ -38,13 +38,10 @@ public class ControleNotasTest {
 	@Test
 	public void validaSeNotaForMenos1(){
 		CriadorDeEstudante criadorDeEstudante;
-		estudante1 = ;
 		
-		
+	
 		boolean resultadoEsperado = false;
 		boolean resultadoObtido = true;
-		
-		
 		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
@@ -56,8 +53,6 @@ public class ControleNotasTest {
 		boolean resultadoEsperado = true;
 		boolean resultadoObtido = false;
 		
-		
-		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
 		
@@ -66,8 +61,6 @@ public class ControleNotasTest {
 	public void validaSeNotaFor5() {
 		boolean resultadoEsperado = true;
 		boolean resultadoObtido = false;
-		
-		
 		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
@@ -78,8 +71,6 @@ public class ControleNotasTest {
 		boolean resultadoEsperado = false;
 		boolean resultadoObtido = true;
 		
-		
-		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
 		
@@ -89,11 +80,8 @@ public class ControleNotasTest {
 		boolean resultadoEsperado = false;
 		boolean resultadoObtido = true;
 		
-		
-		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
-		
 	}
 	
 	
@@ -102,19 +90,14 @@ public class ControleNotasTest {
 		boolean resultadoEsperado = false;
 		boolean resultadoObtido = true;
 		
-		
-		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
-		
 	}
 	
 	@Test
 	public void verificaSeCom6EhAprovado() {
-		boolean resultadoEsperado = false;
-		boolean resultadoObtido = true;
-		
-		
+		boolean resultadoEsperado = true;
+		boolean resultadoObtido = false;
 		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
@@ -123,10 +106,8 @@ public class ControleNotasTest {
 	
 	@Test
 	public void verificaSeCom7EhAprovado() {
-		boolean resultadoEsperado = false;
+		boolean resultadoEsperado = true;
 		boolean resultadoObtido = true;
-		
-		
 		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
@@ -138,8 +119,6 @@ public class ControleNotasTest {
 		boolean resultadoEsperado = false;
 		boolean resultadoObtido = true;
 		
-		
-		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
 	}
@@ -149,13 +128,36 @@ public class ControleNotasTest {
 		boolean resultadoEsperado = true;
 		boolean resultadoObtido = false;
 		
-		
-		
 		assertEquals(resultadoEsperado, resultadoObtido);
 
 		
 	}
 	
+	@Test
+	public void verificaSeCom3EhReprovado() {
+		boolean resultadoEsperado = false;
+		boolean resultadoObtido = true;
+		
+		assertEquals(resultadoEsperado, resultadoObtido);
+
+	}
 	
+	@Test
+	public void verificaSeCom4EhReprovado() {
+	boolean resultadoEsperado = false;
+	boolean resultadoObtido = true;
+	
+	assertEquals(resultadoEsperado, resultadoObtido);
+
+	}
+	
+	@Test
+	public void verificaSeCom5EhReprovado() {
+		boolean resultadoEsperado = false;
+		boolean resultadoObtido = true;
+		
+		assertEquals(resultadoEsperado, resultadoObtido);
+
+	}
 	
 }
